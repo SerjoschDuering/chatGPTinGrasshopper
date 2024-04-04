@@ -1,7 +1,7 @@
 # Integration of LLMs in Grasshopper Workflows
 
 ## Introduction
-![](webinar.png)
+![](img/webinar.png)
 Linked to a [McNeel/Rhino user webinar](https://www.youtube.com/watch?v=tbUTjJROhNc), this repository explores the integration possibilities of large language models (LLMs) within Grasshopper, a platform for visual programming in architecture and design. This initiative demonstrates how LLMs, specifically ChatGPT, can be utilized for various tasks, with a focus on manipulating parametric models in Grasshopper through natural language and reference images. Showcasing a streamlined urban block model, the webinar and this repository aim to illustrate practical applications of such technologies. 
 
 Bonus: In addition to examples combining LLMs, parametric models, and Stable Diffusion, workflows to fetch text and image from a web app (using Gradio/Hugging Face Spaces via Speckle) for Grasshopper are provided.
