@@ -65,7 +65,7 @@ For most examples, we will use a simple parametric model (see GIF below) that we
 
 ### Examples
 In addition to the snippets, the Grasshopper file includes five examples:
-![](img/exampleDiagrams.png)
+![ diagrams of the data flwo and logic of each example case](img/exampleDiagrams.png)
 
 #### Describe and Explain Image
 Utilizes ChatGPT Vision to describe and explain the content of a screenshot, processing the user's request for an explanation based on the provided instructions and context.
