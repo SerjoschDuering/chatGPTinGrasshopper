@@ -45,7 +45,7 @@ In case you want to use your phone as an input device for text and image, you ca
 5. Go back to "App" and wait until the app is rebuilt. You can now access this web app from your phone's browser through the same URL.
 
 **In Grasshopper:**
-Paste the URL from your Speckle branch into a panel in Grasshopper, and connect it to the Speckle async receive component (snippet is prepared in the Grasshopper file of this repository).
+Paste the URL from your Speckle branch into a panel in Grasshopper, and connect it to the Speckle async receive component (snippet is prepared in the Grasshopper file of this repository), right-click the component and select auto-update (this will automatically trigger the component once new input from the webapp is created).
 
 #### Once you've added tokens, be careful with sharing your Grasshopper files as they now include your token.
 
