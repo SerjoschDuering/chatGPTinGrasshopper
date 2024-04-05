@@ -21,13 +21,13 @@ To create an OpenAI API key, follow these steps and refer to the linked resource
 4. In Grasshopper, paste the key/token into a panel and connect it to the script components calling the ChatGPT API.
 
 ___
-#### Replicate Account and API Token (optional, for Stable Diffusion) 
+#### (optional) Replicate Account and API Token (for Stable Diffusion) 
 For the text/img2img generation snippet, we are using Stable Diffusion through an API hosted on Replicate.com.
 1. Go to [Replicate](https://replicate.com) and create an account.
 2. Retrieve your [API token](https://docs.mindmac.app/how-to.../add-api-key/create-replicate-api-key) (may require a credit card).
 3. In Grasshopper, paste the token into a panel and connect it to the Stable Diffusion component.
 
-#### Speckle and Huggingface (optional, for the web app workflow)
+#### (optional) Speckle and Huggingface (for the web app workflow)
 In case you want to use your phone as an input device for text and image, you can use a simple Gradio web app (hosted on Hugging Face Spaces) and Speckle (it's a bit hacky) to forward input from the web app to Grasshopper.
 
 **Speckle**
