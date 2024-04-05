@@ -67,20 +67,16 @@ For most examples, we will use a simple parametric model (see GIF below) that we
 In addition to the snippets, the Grasshopper file includes five examples:
 ![ diagrams of the data flwo and logic of each example case](img/exampleDiagrams.png)
 
-#### Describe and Explain Image
-Utilizes ChatGPT Vision to describe and explain the content of a screenshot, processing the user's request for an explanation based on the provided instructions and context.
 
-#### System of Experts
-Leverages ChatGPT Vision to assess a site image from the perspectives of different personas (e.g., Jane Jacobs), mediating opinions to suggest a compromise. Technically this is achived through multiple API calls.
+- **Describe and Explain Image**: Utilizes ChatGPT Vision to describe and explain the content of a screenshot, processing the user's request for an explanation based on the provided instructions and context.
 
-#### Text to Parametric Model
-Employs LLMs to translate a user query into parameters for a parametric model, where ChatGPT assesses the user request and the resulting JSON is parsed to define the model's parameters.
+- **System of Experts**: Leverages ChatGPT Vision to assess a site image from the perspectives of different personas (e.g., Jane Jacobs), mediating opinions to suggest a compromise. Technically this is achieved through multiple API calls.
 
-#### Text & Image to Parametric Model
-Combines user queries with context and reference images to define parameters for a parametric urban + roof model, involving ChatGPT's assessment and JSON parsing for model parameterization. Through the context image the model is now able to respond to spatial features or define a set of parameter for each individual building/roof.
+- **Text to Parametric Model**: Employs LLMs to translate a user query into parameters for a parametric model, where ChatGPT assesses the user request and the resulting JSON is parsed to define the model's parameters.
 
-#### Text & Image to Parametric Model + AI Rendering
-Integrates text and image input to drive both parametric modeling and AI rendering, where ChatGPT Vision processes the inputs, and the parameters + prompts derived are used to inform a parametric model and subsequent rendering via the Stable Diffusion API.
+- **Text & Image to Parametric Model**: Combines user queries with context and reference images to define parameters for a parametric urban + roof model, involving ChatGPT's assessment and JSON parsing for model parameterization. Through the context image, the model is now able to respond to spatial features or define a set of parameters for each individual building/roof.
+
+- **Text & Image to Parametric Model + AI Rendering**: Integrates text and image input to drive both parametric modeling and AI rendering, where ChatGPT Vision processes the inputs, and the parameters + prompts derived are used to inform a parametric model and subsequent rendering via the Stable Diffusion API.
 
 ### Feedback and Contact
 Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/serjoscha-düring-920644173/) or here on GitHub.
