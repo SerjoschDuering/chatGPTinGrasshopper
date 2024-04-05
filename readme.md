@@ -20,6 +20,7 @@ To create an OpenAI API key, follow these steps and refer to the linked resource
 3. For a detailed tutorial on how to do this, check out this [OpenAI API Key Tutorial](https://www.youtube.com/watch?v=FgjdC07qgUc).
 4. In Grasshopper, paste the key/token into a panel and connect it to the script components calling the ChatGPT API.
 
+___
 #### Replicate Account and API Token (optional, for Stable Diffusion) 
 For the text/img2img generation snippet, we are using Stable Diffusion through an API hosted on Replicate.com.
 1. Go to [Replicate](https://replicate.com) and create an account.
