@@ -18,7 +18,8 @@ To create an OpenAI API key, follow these steps and refer to the linked resource
 1. Visit [OpenAI](https://platform.openai.com) and sign up or log in.
 2. Navigate to the API section and follow the instructions to generate an API key.
 3. For a detailed tutorial on how to do this, check out this [OpenAI API Key Tutorial](https://www.youtube.com/watch?v=FgjdC07qgUc).
-4. In Grasshopper, paste the key/token into a panel and connect it to the script components calling the ChatGPT API.
+Note: using the API is not for free, but requires you to top up your credits at openAI elsewise you get an error message when trying to use their API.
+5. In Grasshopper, paste the key/token into a panel and connect it to the script components calling the ChatGPT API.
 
 ___
 #### (optional) Replicate Account and API Token (for Stable Diffusion) 
