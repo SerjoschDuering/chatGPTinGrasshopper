@@ -22,6 +22,7 @@ The integration supports sophisticated AI Agents with powerful capabilities:
 - **MCP Integration**: Direct access to MCP tools, enabling agents to interact with Rhino/Grasshopper
 - **Complex Workflows**: Chain multiple agents, tools, and services together for sophisticated automation
 - **Multi-Modal**: Handle text, images, and other data types in a single workflow
+- **Free choice of LLM providers**: it doesnt have to be openAI
 
 This opens up endless possibilities - from complex AI agent workflows (persistent memory supported via the session_id input) to data processing pipelines, all accessible through a simple Python component in Grasshopper:
 
