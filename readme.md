@@ -5,6 +5,28 @@ Linked to a McNeel/Rhino user webinar ([video link](https://www.youtube.com/watc
 
 Bonus: In addition to examples combining LLMs, parametric models, and Stable Diffusion, workflows to fetch text and image from a web app (using Gradio/Hugging Face Spaces via Speckle) for Grasshopper are provided.
 
+## !!! UPDATE !!!
+Even easier way to integrate not just LLMs but ANY API or complex workflow into Grasshopper! Using [n8n](https://n8n.io) - an awesome workflow automation platform that connects APIs, services and tools. With over 400 integrations including AI Agents  (based on LangChain), you can create powerful workflows and trigger them right from Grasshopper:
+
+![Integration with n8n showing the Grasshopper component setup](img/n8n-in-grasshopper.png)
+
+The new `n8n_in_gh.gh` file includes:
+- Image snapshot utilities
+- Component to connect to n8n webhooks 
+- Example n8n workflow as JSON (ready to import into n8n)
+
+### AI Agents in n8n
+The integration supports sophisticated AI Agents with powerful capabilities:
+- **Persistent Memory**: Agents maintain context across conversations using the `session_id` input
+- **Tool Usage**: Agents can access and use a wide variety of tools through n8n's integrations
+- **MCP Integration**: Direct access to MCP tools, enabling agents to interact with Rhino/Grasshopper
+- **Complex Workflows**: Chain multiple agents, tools, and services together for sophisticated automation
+- **Multi-Modal**: Handle text, images, and other data types in a single workflow
+
+This opens up endless possibilities - from complex AI agent workflows (persistent memory supported via the session_id input) to data processing pipelines, all accessible through a simple Python component in Grasshopper:
+
+![n8n integration details showing available tools and workflow](img/n8n-details.png)
+
 ## Setup and Requirements
 
 ### Installation
